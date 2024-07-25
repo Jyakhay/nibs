@@ -1,0 +1,6 @@
+[submodule "Dependencies/rapidjson"]
+	path = Dependencies/rapidjson
+	url = https://github.com/tencent/rapidjson.git
+[submodule "Dependencies/zlib"]
+	path = Dependencies/zlib
+	url = https://github.com/madler/zlib.git
