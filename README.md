@@ -6,8 +6,8 @@ An inheritance based C++17 serialization library.
 1. [Context](#context)
 2. [Capabilities](#capabilities)
 3. [Cloning and Compiling](#cloning-and-compiling)\
-3.1 [Cloning](#cloning)\
-3.2 [Compiling](#compiling)
+3.1. [Cloning](#cloning)\
+3.2. [Compiling](#compiling)
 4. [Dependencies](#dependencies)
 
 ## Context

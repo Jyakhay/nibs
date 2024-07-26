@@ -1,0 +1,13 @@
+project(nibs)
+
+set(NIBS_SOURCES
+    "Include/nibs/IArchive.h"
+    "Include/nibs/BinaryArchive.h"
+    "Include/nibs/ISerializable.h"
+    "BinaryArchive.cpp"
+)
+
+add_library(nibs ${NIBS_SOURCES})
+
+set_target_properties(nibs PROPERTIES LINKER_LANGUAGE CXX)
+target_include_directories(nibs PRIVATE "Include")
